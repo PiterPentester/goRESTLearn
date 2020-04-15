@@ -2,4 +2,4 @@ bind_addr = ":3939"
 log_level = "debug"
 
 [store]
-database_url = "host=localhost dbname=restapi_dev sslmode=disable"
+database_url = "host=localhost user=postgres dbname=restapi_dev sslmode=disable"
