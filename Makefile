@@ -2,7 +2,7 @@
 build:
 	go build  -v ./cmd/apiserver
 
-.PHONY: build
+.PHONY: test
 test:
 	go test -v -race -timeout 30s ./...
 
